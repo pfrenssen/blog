@@ -23,10 +23,10 @@ categories:
 - !ruby/string:Sequel::SQL::Blob printing
 ---
 By default, Gnome does not provide a print option in the right-click menu of the file browser. Luckily it is very easy to add more functions to this menu.
-<!--break-->
-Nautilus will look into the ~/.gnome2/nautilus-scripts folder and add the files it finds there to the 'scripts'-entry in the context menu that pops up whenever your right-click a file.
 
-Create a file called 'print.sh' in this folder and paste the following script in it:
+Nautilus will look into the `~/.gnome2/nautilus-scripts` folder and add the files it finds there to the 'scripts'-entry in the context menu that pops up whenever your right-click a file.
+
+Create a file called `print.sh` in this folder and paste the following script in it:
 
 ```shell
 #!/bin/bash
