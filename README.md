@@ -1,3 +1,11 @@
+This has been made using a very old version of Jekyll and Beautiful-Jekyll.
+I tried upgrading to the latest version but the layout is messed up beyond
+recognition.
+
+It is probably a better idea to start fresh from the latest version and copy
+over the posts.
+
+
 ## IMPORTANT NOTE
 
 #### If you've been using Beautiful-Jekyll for a while and it all of a sudden broke after Feb 1, 2016, do not panic. It's because GitHub upgraded to a newer version of Jekyll, and it unfortunately broke tons of websites. To fix your website, there are two files you need to change: [`_includes/head.html`](./_includes/head.html) and [`_includes/footer-scripts.html`](_includes/footer-scripts.html). You need to edit your version of these two files and change them to match my version (click on the links in the previous sentence to see my version).
